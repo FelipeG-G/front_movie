@@ -48,7 +48,7 @@ const ResetPassword = () => {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ email }), // Send email as JSON body
+          body: JSON.stringify({ email }), // Send email as JSON body.
         }
       );
 
