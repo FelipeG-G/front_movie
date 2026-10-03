@@ -40,10 +40,10 @@ const ResetPassword = () => {
     try {
       // Send POST request to backend API for password reset
       const response = await fetch(
-        "https://backend-de-peliculas.onrender.com/api/auth/request-password-reset",
+        "https://backend-de-peliculas.onrender.com/api/v1/password/forgot-password",
+        // "http://localhost:8080/api/v1/password/forgot-password",
         {
           // Local development endpoint example:
-          // "http://localhost:8080/api/auth/request-password-reset",
           method: "POST",
           headers: {
             "Content-Type": "application/json",
