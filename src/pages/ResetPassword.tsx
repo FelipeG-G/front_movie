@@ -43,7 +43,7 @@ const ResetPassword = () => {
         "https://backend-de-peliculas.onrender.com/api/v1/password/forgot-password",
         // "http://localhost:8080/api/v1/password/forgot-password",
         {
-          // Local development endpoint example:
+          //Local development endpoint example:
           method: "POST",
           headers: {
             "Content-Type": "application/json",
